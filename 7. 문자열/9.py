@@ -1,3 +1,5 @@
+#2941
+
 alpha = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
 
 word = input()

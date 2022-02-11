@@ -1,3 +1,5 @@
+#10809
+
 word = list(input())
 count = []
 for i in range(97,123):#a:97 ~ z:122

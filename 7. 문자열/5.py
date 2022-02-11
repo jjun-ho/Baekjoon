@@ -1,3 +1,5 @@
+#1157
+
 words = input(). upper()
 word = list(set(words))
 

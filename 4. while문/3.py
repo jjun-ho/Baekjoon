@@ -1,3 +1,5 @@
+#1110
+
 num = int(input())
 check = num
 new_num = 0
