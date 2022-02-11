@@ -8,3 +8,7 @@ for score in test_list :
 test_avg = sum(new_list)/n
 print(test_avg)
 
+"""
+* sum() 
+리스트이 요소를 모두 더함
+"""

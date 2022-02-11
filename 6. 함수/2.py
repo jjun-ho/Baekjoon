@@ -11,3 +11,9 @@ for i in range(1, 10001):
 for j in range(1, 10001):
     if j not in remove_list:
         print(j)
+
+"""
+*  if i not in range() 
+not in 은 만약 i가 없을 때 
+리스트로 하고 set() 사용해도 될듯?
+"""

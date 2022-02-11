@@ -13,3 +13,17 @@ for k in range(test):
     string = "".join(result)
     print(string)
 
+"""
+* join() 
+a = [“a/b/c”, “d”, “e”]
+1. 리스트 배열을 문자열로 합치기
+	“”.join(a)
+	a/b/cde 
+2. 요소 사이에 특정 문자열을 추가하여 문자열로 변환
+	ex) 요소 사이에 특정 문자열을 추가하여 문자열로 변환
+	‘/‘.join(a)
+	a/b/c/d/e
+
+* 한줄에 숫자 , 문자 나눠서 입력받기 
+num, data = input().split()
+"""

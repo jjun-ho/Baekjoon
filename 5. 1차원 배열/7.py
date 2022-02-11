@@ -15,4 +15,9 @@ for i in range(n):
     s_result = '{:.3f}'.format(result)
     print(s_result+'%')
 
-
+"""
+* round(반올림하고자 하는 값, 자릿수) 
+소수점 몇 자리까지 반올림
+다만 round(40.0000000,3) 하면 40.000 안되고 자동으로 40.0으로 변함
+{:.자릿수f).format(반올림하고자 하는 값)사용하면 가능
+"""

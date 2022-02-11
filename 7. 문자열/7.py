@@ -16,3 +16,9 @@ if result1 >= result2:
     print(result1)
 else:
     print(result2)
+
+ """
+ * for문 거꾸로 반복 #
+1. for i in range(n,0,-1) : step을 음수로 지정
+2. for i in reversed(range(n)):
+ """

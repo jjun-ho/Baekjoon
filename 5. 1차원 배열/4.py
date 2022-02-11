@@ -7,5 +7,11 @@ for i in data:
 setlist = set(list)
 print(len(setlist))
 
+"""
+* 입력의 모든것 
+https://doing7.tistory.com/49
 
+* set() 
+중복된 데이터를 없애하고 하나의 데이터로 처리
+"""
 

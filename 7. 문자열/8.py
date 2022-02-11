@@ -6,3 +6,8 @@ for j in range(len(a)):
         if a[j] in i:
             ret += dial.index(i)+3
 print(ret)
+
+"""
+* if a[j] in i: 
+만약 i에 a[j]가 있으면
+"""
