@@ -1,3 +1,5 @@
+#1330
+
 def Bet(n1,n2):
     if(n1>n2):
         print(">")

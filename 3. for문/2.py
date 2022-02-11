@@ -1,3 +1,5 @@
+#10950
+
 test = int(input())
 sum = []
 for i in range(test):
