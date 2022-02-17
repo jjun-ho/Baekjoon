@@ -9,7 +9,6 @@ def isPrime(num):
                 return False
         return True
 
-
 M, N = map(int, input().split())
 
 for i in range(M, N + 1):

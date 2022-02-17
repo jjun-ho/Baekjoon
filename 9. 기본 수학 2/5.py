@@ -18,9 +18,9 @@ for i in all_list:						#2부터 2*123,456 범위
 while True:
     n = int(input())
     count = 0					#갯수를 세야하는 조건 때문에 카운트
-    if n == 0 :
+    if n == 0:
             break
     for i in memo:			#memo리스트 중에서
-        if n < i <=2*n:		#입력한 값의 범위 내에서 값이 있으면
-            count+=1		#있을 때 마다 카운트 +1
+        if n < i <= 2*n:		#입력한 값의 범위 내에서 값이 있으면
+            count += 1   	    #있을 때 마다 카운트 +1
     print(count)
