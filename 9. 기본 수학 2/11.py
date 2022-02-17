@@ -11,7 +11,15 @@ for _ in range(n):
         print(-1)
     elif abs(r1-r2) == distance or r1 + r2 == distance:  # 내접, 외접일 때
         print(1)
-    elif abs(r1-r2) < distance < (r1+r2) :  # 두 원이 서로다른 두 점에서 만날 때
+    elif abs(r1-r2) < distance < (r1+r2):  # 두 원이 서로다른 두 점에서 만날 때
         print(2)
     else:
         print(0)  # 그 외에
+
+"""
+r1 + r2 < d 이면 두 원은 서로의 외부에 위치한다.
+r1 + r2 = d 이면 두 원은 외접한다.
+|r1 - r2| < d < r1 + r2 이면 두 원은 서로 다른 두 점에서 만난다.
+|r1 - r2| = d 이면 한 원이 다른 원에 내접한다.
+|r1 - r2| > d, r1 ≠ r2 이면 한 원이 다른 원의 내부에 있다.
+"""
