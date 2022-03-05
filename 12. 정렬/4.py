@@ -25,6 +25,6 @@ from collections import Counter
 most_common()
 Counter(list).most_common()
 Counter()에서 가장 빈도수가 높은 순으로 표시해 주는 함수이다. 
-단, 인자값으로 숫자를 입력하시면 그 숫자번째까지의 빈도수를 표시해준다.
+단, 인자값으로 숫자를 입력하면 그 숫자번 째까지의 빈도수를 표시해준다.
 빈도수가 같을 때에는 인자로 받은 리스트에서 먼저 들어간 순서대로 출력한다.
 """
