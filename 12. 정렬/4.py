@@ -14,7 +14,7 @@ if len(cnt) > 1 and cnt[0][1] == cnt[1][1]: #최빈값
     print(cnt[1][0])
 else:
     print(cnt[0][0])
-print(max(number)-min(number))  #범위
+print(max(number)-min(number)) #범위
 
 """
 * counter 함수
