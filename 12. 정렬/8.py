@@ -5,7 +5,7 @@ data = []
 for i in range(n):
     data.append(input())
 data = sorted(set(data))  #중복을 제거한 후 사전순 정렬
-data.sort(key=len)
+data.sort(key=len) #문자열 길이에 따라 정렬
 for i in data:
     print(i)
 
