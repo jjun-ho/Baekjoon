@@ -5,6 +5,7 @@ for i in range(3, 1001):
   s.append(s[i - 2] + s[i - 1])
 n = int(input())
 print(s[n] % 10007)
+
 """
 n = 1일때 방법의 수는 1개.
 n = 2 - 2개
